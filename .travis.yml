@@ -7,3 +7,6 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+script:
+  - SET FLASK_APP=flaskHello.py
+  - flask run
